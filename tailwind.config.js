@@ -1,3 +1,5 @@
+import { Zoom } from 'swiper/modules'
+
 /** @type {import('tailwindcss').Config} */
 export default {
   darkMode: 'class',
@@ -10,4 +12,4 @@ export default {
   },
   plugins: [],
 }
-
+Zoom

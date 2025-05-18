@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.hero-section {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #000000, #0a0a0a, #111111, #000000);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  padding: 2rem;
+}
+
+.scroll-text {
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-align: center;
+   margin-left: -60px;
+ 
+}
+
+
+.top-left-name {
+  position: absolute;
+  top: 250px;
+  left: 350px;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-top: 1rem;
+  margin-left: -1rem;
+}
+/* hI */
+.static-text  {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.9rem;
+  color: white;
+  font-weight: bold;
+  margin-top: -490px;
+  margin-left: -30px;
+}
+
+.typewriter-text {
+  display: inline-block;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.9rem;
+  color: #00ff99;
+  font-weight: bold;
+  padding-right: 0.5rem;
+  white-space: nowdwsadrap;
+  overflow: hidden;
+  animation: typewriter 3s steps(3) infinite, blink 0.8s step-end infinite;
+   margin-top: -440px;
+   margin-left: -50px;
+}
+
+@keyframes typewriter {
+  0% { width: 0; }
+  100% { width: 8ch; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+.hero-content h1 {
+  font-size: 3.5rem;
+  color: white;
+  margin-top: 1rem;
+  line-height: 1.2;
+  letter-spacing: -0.05em;
+}
+
+.hero-content h2 {
+  font-size: 1.3rem;
+  color: rgba(209, 213, 219, 0.8);
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  color: rgba(209, 213, 219, 0.9);
+  max-width: 30ch;
+  margin: 1.2rem auto;
+  line-height: 1.1;
+}
+
+/* Lottie Arrow Styles */
+.lottie-wrapper {
+  width: 500px;
+  height: 475px;
+  background: transparent;
+  opacity: 1;
+  margin-left: 2.2rem;
+}
+
+.right-lottie-container {
+  width: -10px;
+  height:15px;
+  position: absolute;
+  bottom: 10%;
+  left: 49.9%;
+  transform: translateX(-50%);
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lottie-wrapper-right {
+  width: 10vw;
+  height: 10vw;
+  min-width: 150px;
+  min-height: 20px;
+  margin-left: -4rem;
+  margin-bottom: -5rem;
+  background: transparent;
+}
+
+@media (max-width: 824px) {
+  .lottie-wrapper-right {
+    width: 12vw;
+    height: 12vw;
+    min-width: 100px;
+    min-height: 50px;
+  }
+
+  .top-left-name {
+    top: 140px; /* Adjust to move it slightly above Lottie */
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 0.6rem;
+    flex-direction: column; /* Stack text vertically above the Lottie animation */
+  }
+
+
+.scroll-text {
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-align: center;
+   margin-left: -60px;
+ 
+}
+
+.right-lottie-container {
+  width: -10px;
+  height:15px;
+  position: absolute;
+  bottom: 10%;
+  left: 49.9%;
+  transform: translateX(-50%);
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+  .static-text,
+  .typewriter-text {
+    font-size: 0.7rem;
+  }
+
+  .lottie-wrapper {
+    margin-top: 2rem; /* Space between text and Lottie animation */
+  }
+}
+
+@media (max-width: 768px) {
+  .lottie-wrapper-right {
+    width: 15vw;
+    height: 15vw;
+    min-width: 120px;
+    min-height: 60px;
+  }
+  
+
+  .top-left-name {
+    top: 110px; /* Adjust for more balance */
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 0.5rem;
+    flex-direction: column; /* Stack text vertically */
+  }
+
+
+  .scroll-text {
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-align: center;
+   margin-left: -60px;
+ 
+}
+
+.right-lottie-container {
+  width: -10px;
+  height:15px;
+  position: absolute;
+  bottom: 10%;
+  left: 49.9%;
+  transform: translateX(-50%);
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+  .static-text,
+  .typewriter-text {
+    font-size: 0.6rem;
+  }
+
+  .lottie-wrapper {
+    width: 300px;
+    height: 280px;
+    margin-left: -8rem;
+    margin-top: 3rem; /* Move Lottie animation further down */
+    transform: rotate(30deg);
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content h2 {
+    font-size: 1rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .lottie-wrapper-right {
+    width: 20vw;
+    height: 20vw;
+    min-width: 100px;
+    min-height: 50px;
+  }
+
+  .top-left-name {
+    top: 90px; /* Adjust further for very small screens */
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 0.3rem;
+    flex-direction: column; /* Keep text vertically aligned above animation */
+  }
+
+  .scroll-text {
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-align: center;
+   margin-left: -60px;
+ 
+}
+
+.right-lottie-container {
+  width: -10px;
+  height:15px;
+  position: absolute;
+  bottom: 10%;
+  left: 49.9%;
+  transform: translateX(-50%);
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+  .static-text,
+  .typewriter-text {
+    font-size: 0.5rem;
+  }
+
+  .lottie-wrapper {
+    width: 280px;
+    height: 280px;
+    margin-left: -10rem;
+    transform: rotate(45deg);
+  }
+
+  .hero-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-content h2 {
+    font-size: 0.9rem;
+  }
+
+  .hero-content p {
+    font-size: 0.9rem;
+    padding: 0 0.8rem;
+  }
+}
+
+
+@media (max-width: 346px) {
+
+.scroll-text {
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-align: center;
+   margin-left: -60px; 
+ 
+}
+
+.right-lottie-container {
+  width: -10px;
+  height:15px;
+  position: absolute;
+  bottom: 10%;
+  left: 49.9%;
+  transform: translateX(-50%);
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+}

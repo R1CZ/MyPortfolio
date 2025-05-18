@@ -1,0 +1,31 @@
+/* UltraEnhancedService.css */
+
+/* Background for the service card */
+.service-card-background {
+  background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.01));
+  transform-style: preserve-3d;
+}
+
+/* Overlay hover background */
+.card-hover-overlay {
+  background: linear-gradient(to bottom right, rgba(34, 197, 94, 0.3), rgba(0, 245, 102, 0.3)); /* from green-400/30 to blue-500/30 */
+}
+
+/* Fade In Up Animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Triggered when element is in view */
+.fadeInUp {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+  animation: fadeInUp 0.7s ease-out forwards;
+}
