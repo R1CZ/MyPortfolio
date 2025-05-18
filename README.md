@@ -1,8 +1,8 @@
-Requirements to install
+Requirements to need to install
 
 npm install
 
-@lottiefiles/dotlottie-react@0.13.5
+├──@lottiefiles/dotlottie-react@0.13.5
 ├── @types/react-dom@18.3.5
 ├── @types/react@18.3.18
 ├── @vitejs/plugin-react@4.3.4
@@ -28,8 +28,6 @@ npm install
 ├── tailwindcss@3.4.17
 ├── tsparticles@3.8.1
 └── vite@5.4.14
-
-
 
 Desktop
 ![Desktop](https://github.com/user-attachments/assets/2e6d6073-259e-4876-8489-9ec5d5c1379a)
