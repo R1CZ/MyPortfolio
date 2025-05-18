@@ -1,5 +1,7 @@
 Requirements to install
+
 npm install
+
 @lottiefiles/dotlottie-react@0.13.5
 ├── @types/react-dom@18.3.5
 ├── @types/react@18.3.18
