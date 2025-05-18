@@ -21,7 +21,7 @@ const socialLinks = [
   {
     icon: FaGithub,
     label: 'GitHub',
-    href: 'https://github.com/YOUR_USERNAME', 
+    href: 'https://github.com/R1CZ', 
     gradient: 'from-gray-700 to-black',
   },
   {

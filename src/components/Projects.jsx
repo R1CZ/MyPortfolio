@@ -10,6 +10,7 @@ import Nike from "../assets/Nike.png";
 import h14 from "../assets/h14.png";
 import h35 from "../assets/h35.png";
 import h28 from "../assets/h28.png";
+import UIUX from "../assets/UIUX.png";
 
 const projects = [
   {
@@ -17,43 +18,37 @@ const projects = [
     name: "Modern Design Page",
     software: "Figma",
     images: [h1, h2, h3, h6, Fashion, h14, h35, h28],
-    category: "UI/UX Design"
+    category: "UI Design"
   },
   {
     id: 2,
-    name: "Logo Design",
-    software: "Illustrator",
-    images: [],
-    category: "Branding"
-  },
-  {
-    id: 3,
     name: "Graphics Design",
     software: "Photoshop",
     images: [Nike],
     category: "Digital Art"
   },
   {
-    id: 4,
-    name: "Web UI Kit",
+    id: 3,
+    name: "Wireframe",
     software: "Figma",
     images: [],
-    category: "UI/UX Design"
+    category: "UX Design"
   },
   {
-    id: 5,
+    id: 4,
     name: "Mobile App UI",
     software: "Figma",
     images: [],
     category: "Mobile Design"
   },
   {
-    id: 6,
-    name: "Car Landing Page",
-    software: "Figma",
-    images: [],
-    category: "Web Design"
+    id: 5,
+    name: "Up Skills",
+    software: "Courses",
+    images: [UIUX],
+    category: "Certificates"
   },
+
 ];
 
 const Projects = () => {
@@ -92,7 +87,7 @@ const Projects = () => {
         {/* Title */}
         <div className="text-center mb-16" data-aos="fade-up">
           <h2 className="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 to-emerald-500 mb-4">
-            My Projects
+           Projects & Certificates
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto text-lg">
             A collection of my design and development work
