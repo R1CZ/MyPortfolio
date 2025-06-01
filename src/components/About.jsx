@@ -187,7 +187,7 @@ const About = () => {
             {/* Tech Stack */}
             <div className="mt-12">
               <h3 className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-emerald-400 mb-6">
-                Skills & Tech Stack
+                Skills | Tech Stack | Tools
               </h3>
               <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-4">
                 {techStack.map((tech, index) => (
